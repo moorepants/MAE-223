@@ -1,0 +1,11 @@
+These are all of the source code files that I wrote while taking Mont Hubbard's
+multibody dynamics class in the Winter of 2006. It includes learning autolev
+and my bicycle dynamics class project which took me forever to figure out. This
+was the first time I'd worked with the Whipple bicycle model. These may be
+useful to someone but beware that many may have bugs and errors or may not even
+be giving the correct answers. If fact I don't think that any of these files
+correctly derive the exact linear equations of motion of the whipple bicycle as
+presented in Meijaard, et al. 2007, although they are very close. My project
+paper on the bicycle can be found here:
+http://mae.ucdavis.edu/~biosport/jkm/bh_mypapers/Low%20Speed%20Bicycle%20Stability%20-%20Effects%20of%20Geometric%20Parameters%202006.pdf.
+These files were used to generate the (mostly correct) results in that paper.
