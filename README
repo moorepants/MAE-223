@@ -9,3 +9,15 @@ presented in Meijaard, et al. 2007, although they are very close. My project
 paper on the bicycle can be found here:
 http://mae.ucdavis.edu/~biosport/jkm/bh_mypapers/Low%20Speed%20Bicycle%20Stability%20-%20Effects%20of%20Geometric%20Parameters%202006.pdf.
 These files were used to generate the (mostly correct) results in that paper.
+
+BICYCLE[1-14].AL were my first attempts at deriving the equations of motion of
+the bicycle. BICYCLE14.AL and FINDQ8.AL were the final versions used to
+generate the data for the project paper.
+
+bike_inertia.m, arm.m, leg.m, evalprimes.m uses the equations of motion
+generated with BICYCLE14.AL and FINdQ8.AL to generate the data in the project
+paper. It generates estimates of the parameters for a bicycle and rider just
+based off of geometric measurments and the rider's mass.
+
+thomasbike.al was written by another student, Thomas Engelhardt, and may
+generate the equations of motion correctly.
